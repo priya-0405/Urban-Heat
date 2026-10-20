@@ -189,8 +189,8 @@ baseline_year = st.sidebar.selectbox(
 
 recent_year = st.sidebar.selectbox(
     "Recent year",
-    options=list(range(2019, 2026)),
-    index=6,
+    options=list(range(2019, 2027)),
+    index=7,
 )
 
 top_n = st.sidebar.slider(
